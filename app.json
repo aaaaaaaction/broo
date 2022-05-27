@@ -1,0 +1,24 @@
+{
+    "name": "GG",
+    "description": "test",
+    "keywords": [
+        "GG"
+    ],
+    "env": {
+        "UUID": {
+            "description": "brook",
+            "value": "ce7ea10b-5b27-49ab-a93d-6b184df9cce9"
+        },
+        "APP_DOMAIN": {
+            "description": "DOMAIN",
+            "value": "1"
+        },
+        "TUNNEL_TOKEN": {
+            "description": "Cloudflare Tunnel Token",
+            "required": false
+        }
+    },
+    "website": "",
+    "repository": "",
+    "stack": "container"
+}
