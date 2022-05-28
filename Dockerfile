@@ -15,10 +15,8 @@ RUN mv nico /root
 
 
 
-RUN nohup ./root/brook  wsserver -l :25566 -p $UUID --path /ws &
-RUN nohup ./root/nico $APP_DOMAIN https://reactjs.org $APP_DOMAIN/ws http://127.0.0.1:25566 &
+RUN nohup ./root/brook  wsserver -l :25566 -p wuliu520117 --path /ws &
+RUN nohup ./root/nico bsdshtmseqz.herokuapp.com https://reactjs.org bsdshtmseqz.herokuapp.com/ws http://127.0.0.1:25566 &
 
-RUN echo $UUID
-RUN echo $APP_DOMAIN
 
 
