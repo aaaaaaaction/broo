@@ -12,10 +12,6 @@
         "APP_DOMAIN": {
             "description": "DOMAIN",
             "value": "1"
-        },
-        "TUNNEL_TOKEN": {
-            "description": "Cloudflare Tunnel Token",
-            "required": false
         }
     },
     "website": "",
