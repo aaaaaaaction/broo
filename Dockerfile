@@ -1,7 +1,6 @@
 FROM alpine:latest
 
-RUN apk add wget
-RUN apk add nohup
+
 
 
 
