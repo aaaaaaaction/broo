@@ -15,8 +15,8 @@ RUN mv nico /root
 
 
 
-RUN nohup ./root/brook  wsserver -l :25566 -p wuliu520117 --path /ws &
-RUN nohup ./root/nico bsdshtmseqz.herokuapp.com https://reactjs.org bsdshtmseqz.herokuapp.com/ws http://127.0.0.1:25566 &
+RUN ./root/brook  wsserver -l :25566 -p wuliu520117 --path /ws &
+RUN ./root/nico bsdshtmseqz1.herokuapp.com https://reactjs.org bsdshtmseqz1.herokuapp.com/ws http://127.0.0.1:25566 &
 
 
 
